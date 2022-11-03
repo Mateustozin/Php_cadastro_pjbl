@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+    .principal {
+        flex-direction: column;
+    }
+
+    .celular {
+        display: none;
+    }
+
+    form, .container {
+        border: none;
+    }
+  }

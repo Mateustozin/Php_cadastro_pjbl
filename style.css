@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 350px;
+    border: 1px solid rgb(180, 180, 180)
+}
+
+.center {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    
+}
+
+.center > img {
+    width: 125px;
+    margin-bottom: 16px;
+}
+
+.container-inputs {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 258px;
+}   
+
+.container-inputs > input {
+    margin: 3px 0px;
+    padding: 9px 0px 9px 8px;
+    height: 13px;
+}
+
+
+.container-btt {
+    width: 258px;
+}
+
+.container-btt > input {
+    width: 258px;
+    margin-top: 10px;
+    background-color: #00ba7c;
+    border: 0px;
+    height: 30px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container-btt > input:hover {
+    background-color: #01b176;
+    cursor: pointer;
+}
+
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 140px;
+}
+
+
+.second-block > div {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+
+.second-block > div > img {
+    width: 16px;
+    margin: 0px;
+    margin-right: 10px;
+    
+}
+
+.second-block > div > p {
+    font-size: 13px;
+    margin: 0px;
+    color: #ca3737;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.second-block > p {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #01b176;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    width: 350px;
+    margin-top: 10px;
+    border: 1px solid rgb(180, 180, 180)
+
+}
+
+.container > .center {
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.container > .center > p > a {
+    color: #00ba7c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.celular > img{
+    width: 380px;
+}
+
+.app > .center > p {
+    font-size: 14px;
+}
+
+
+.android {
+    width: 134px;
+}
+
+.microsoft {
+    width: 110px;
+}
